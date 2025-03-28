@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from "../../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
+import Logo from "../../../assets/logo.svg";
 import { Button } from "@Components";
 
 function Header() {
@@ -9,7 +10,9 @@ function Header() {
       <img src={Logo} alt="Logo" className="w-[130px] h-[30px]" />
 
       <div className="flex gap-2">
-        <Button variant="transparent">Sign in</Button>
+        <Link to="/dashboard">
+          <Button variant="transparent">Sign in</Button>
+        </Link>
         <Button>Sign up</Button>
       </div>
     </header>

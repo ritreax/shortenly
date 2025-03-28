@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .custom-gradient {
+    background: linear-gradient(
+      87deg,
+      rgba(252, 100, 100, 0.12) 0%,
+      rgba(253, 206, 100, 0.12) 25%,
+      rgba(198, 71, 255, 0.12) 50%,
+      rgba(129, 139, 255, 0.35) 75%,
+      rgba(142, 234, 109, 0.12) 100%
+    );
+  }
+}
+
+@theme {
+  --color-background: #f9f9f9;
+  --color-alabaster: #ececec;
+  --color-custom-gray: #e2e1e1;
+  --color-stone-gray: #bfbfbf;
+  --color-ash-gray: #4d4d4d;
+  --color-gunmetal: #333333;
+  --color-dark-slate: #252525;
+
+  --color-success: #22c55e;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+  --color-blue: #007aff;
+
+  --color-light-purple: #f7e5ff;
+  --color-soft-purple: #e6aeff;
+  --color-light-blue: #d8dbff;
+  --color-soft-blue: #b9bfff;
+  --color-light-yellow: #fff7e5;
+  --color-soft-yellow: #fee9b8;
+  --color-light-red: #ffe5e5;
+  --color-soft-red: #feb8b8;
+  --color-light-green: #ecffe5;
+  --color-soft-green: #cbf8bb;
+}

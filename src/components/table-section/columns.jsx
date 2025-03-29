@@ -1,8 +1,8 @@
 const columns = [
   {
-    id: "url", // ✅ Her sütunun kendine özel ID'si olmalı
-    accessorKey: "url", // Veriden çekerken kullanılacak anahtar
-    header: "URL", // Sütun başlığı
+    id: "url",
+    accessorKey: "url",
+    header: "URL", 
     cell: (info) => info.getValue(),
   },
   {
@@ -21,7 +21,7 @@ const columns = [
     id: "createdAt",
     accessorKey: "createdAt",
     header: "Created Date Time",
-    cell: (info) => new Date(info.getValue()).toLocaleDateString(), // Tarih formatlama
+    cell: (info) => new Date(info.getValue()).toLocaleDateString(),
   },
   {
     id: "expireAt",

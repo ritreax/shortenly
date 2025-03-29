@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "@Components";
-import { columns } from "./columns.jsx"; // Kolonları import ettik
+import { columns } from "./columns.jsx";
 
 const data = [
   {

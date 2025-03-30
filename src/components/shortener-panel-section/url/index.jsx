@@ -7,7 +7,7 @@ function Url() {
   return (
     <div className="flex gap-4">
       <span className="relative">
-        <Input placeholder="https://www.longer-url.com" className="relative" />
+        <Input variant="input" placeholder="https://www.longer-url.com"/>
         <button className="absolute py-[10px] px-4 bg-white top-0 right-0 rounded-r-lg border-l border-l-custom-gray cursor-pointer font-medium text-dark-slate hover:bg-background transition-all">
           Generate
         </button>

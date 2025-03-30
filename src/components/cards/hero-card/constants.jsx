@@ -1,0 +1,42 @@
+export const cards = [
+  {
+    id: 1,
+    bgColor: "bg-light-purple",
+    icon: "/text-icon.svg",
+    iconXL: "/text-icon-xl.svg",
+    text: "Shorten text urls with Shortenly!",
+    positionClass: "bottom-0 right-0",
+  },
+  {
+    id: 2,
+    bgColor: "bg-light-yellow",
+    icon: "/camera-icon.svg",
+    iconXL: "/camera-icon-xl.svg",
+    text: "Shorten video urls with Shortenly!",
+    positionClass: "top-0 left-0",
+  },
+  {
+    id: 3,
+    bgColor: "bg-light-red",
+    icon: "/file-icon.svg",
+    iconXL: "/file-icon-xl.svg",
+    text: "Shorten file urls with Shortenly!",
+    positionClass: "top-0 right-0",
+  },
+  {
+    id: 4,
+    bgColor: "bg-light-blue",
+    icon: "/world-icon.svg",
+    iconXL: "/world-icon-xl.svg",
+    text: "Shorten your urls with Shortenly!",
+    positionClass: "bottom-50% right-0",
+  },
+  {
+    id: 5,
+    bgColor: "bg-light-green",
+    icon: "/image-icon.svg",
+    iconXL: "/image-icon-xl.svg",
+    text: "Shorten image urls with Shortenly!",
+    positionClass: "bottom-50% left-0",
+  },
+];

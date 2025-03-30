@@ -13,10 +13,12 @@ export default defineConfig({
       "@Components": path.resolve(__dirname, "src/components"),
       "@Components/layout": path.resolve(__dirname, "src/components/layout"),
       "@Components/icons": path.resolve(__dirname, "src/components/icons"),
-      "@Components/dashboard-section": path.resolve(
+      "@Components/shortener-panel-section": path.resolve(
         __dirname,
-        "src/components/dashboard-section"
+        "src/components/shortener-panel-section"
       ),
+      "@Components/cards": path.resolve(__dirname, "src/components/cards"),
+      "@Components/forms": path.resolve(__dirname, "src/components/forms"),
     },
   },
 });

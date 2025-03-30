@@ -1,7 +1,7 @@
 import React from "react";
-import { Url, Text, Image, Video, File } from "@Components/dashboard-section";
+import { Url, Text, Image, Video, File } from "@Components/shortener-panel-section";
 
-function DashboardContent({ selectedSection }) {
+function ShortenerPanel({ selectedSection }) {
   return (
     <>
       {selectedSection === "URL" && <Url />}
@@ -13,4 +13,4 @@ function DashboardContent({ selectedSection }) {
   );
 }
 
-export { DashboardContent };
+export { ShortenerPanel };

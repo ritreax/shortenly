@@ -1,7 +1,8 @@
 import React from "react";
+import { LoginForm } from "@Components/forms";
 
 function LoginPage() {
-  return <div>LoginPage</div>;
+  return <LoginForm />;
 }
 
 export { LoginPage };

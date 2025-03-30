@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "@Components";
 import { MENU } from "./constants";
 
-function DashboardMenu({ setSelectedSection, selectedSection }) {
+function ShortenerPanelMenu({ setSelectedSection, selectedSection }) {
   return (
     <div className="flex items-center gap-2">
       {MENU.map((item) => (
@@ -23,4 +23,4 @@ function DashboardMenu({ setSelectedSection, selectedSection }) {
   );
 }
 
-export { DashboardMenu };
+export { ShortenerPanelMenu };

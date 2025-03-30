@@ -1,19 +1,21 @@
 import { Button } from "./button";
-import { Main } from "./main";
-import { Dashboard } from "./dashboard";
-import { DashboardMenu } from "./dashboard-menu";
-import { DashboardContent } from "./dashboard-content";
 import { Input } from "./input";
+import { Textarea } from "./textarea";
+
+import { Dashboard } from "./dashboard";
+
+import { ShortenerPanel } from "./shortener-panel";
+import { ShortenerPanelMenu } from "./shortener-panel-menu";
 import { Table } from "./table";
 import { TableSection } from "./table-section";
 
 export {
   Button,
-  Main,
   Dashboard,
-  DashboardMenu,
-  DashboardContent,
+  ShortenerPanel,
+  ShortenerPanelMenu,
   Input,
   Table,
   TableSection,
+  Textarea,
 };

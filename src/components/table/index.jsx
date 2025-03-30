@@ -62,7 +62,7 @@ const Table = ({ data, columns }) => {
         </tbody>
       </table>
 
-      <tfooter className="flex items-center justify-between h-12 px-4 border-t border-t-custom-gray">
+      <tfoot className="flex items-center justify-between h-12 px-4 border-t border-t-custom-gray">
         <button
           onClick={() => setPageIndex((prev) => Math.max(prev - 1, 0))}
           disabled={pageIndex === 0}
@@ -82,7 +82,7 @@ const Table = ({ data, columns }) => {
         >
           Sonraki
         </button>
-      </tfooter>
+      </tfoot>
     </div>
   );
 };

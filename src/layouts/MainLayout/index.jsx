@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Main } from "@Components";
+import { Main } from "@Components/layout";
 import { Header } from "@Components/layout";
 import { Footer } from "@Components/layout";
 

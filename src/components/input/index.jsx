@@ -80,7 +80,7 @@ function Input({
 
   if (variant === "icon_input") {
     return (
-      <div className="relative w-[360px] group">
+      <div className="relative w-full group">
         {icon && (
           <span
             className={`absolute left-3 top-1/2 -translate-y-1/2 transition-colors 

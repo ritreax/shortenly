@@ -5,6 +5,7 @@ import { AuthLayout } from "../layouts/AuthLayout";
 import { DashboardLayout } from "../layouts/DashboardLayout";
 
 import { HomePage, RegisterPage, LoginPage, DashboardPage } from "@pages";
+import ProtectedRoute from "./ProtectedRoute.jsx"; // 👈 Koruma bileşenimizi ekledik
 
 export const router = createBrowserRouter([
   {
@@ -32,7 +33,11 @@ export const router = createBrowserRouter([
   },
 
   {
-    element: <DashboardLayout />,
+    element: (
+      <ProtectedRoute>
+        <DashboardLayout />
+      </ProtectedRoute>
+    ), // 👈 DashboardLayout'u ProtectedRoute içine aldık
     children: [
       {
         element: <DashboardPage />,
